@@ -10,18 +10,21 @@ body {
   
   .container {
     background-color: #000000;
-    padding: 20px;
+    padding-left: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 25%;
+    height: 10%;
   }
-  
+
+
   input {
     padding: 10px;
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 55%;
+    width: 50%;
   }
   
   button {
@@ -44,11 +47,17 @@ body {
   .calculate{
     background-color: #ffffff;
     font-weight: 600;
+    height: 30%;
+ 
   }
   .age-results {
-    margin-top: 10px;
+    margin-top: 10px;;
   }
   
+  .age-results button{
+    background-color: #000000;
+    color: white;
+  }
   .age-results button {
     width: 100px;
   }
