@@ -31,7 +31,8 @@ if (days < 0) {
     years--;
     months += 12;
   }
-
+  
+  
   document.getElementById('years').innerHTML = "Years: " + years;
   document.getElementById('months').innerHTML = "Months: " + months;
   document.getElementById('days').innerHTML = "Days: " + days;
