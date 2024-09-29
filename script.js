@@ -22,3 +22,17 @@ if (days < 0) {
     months += 12;
   }
   
+  if (days < 0) {
+    months--;
+    days += new Date(today.getFullYear(), today.getMonth(), 0).getDate();
+  }
+  
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+
+  document.getElementById('years').innerHTML = "Years: " + years;
+  document.getElementById('months').innerHTML = "Months: " + months;
+  document.getElementById('days').innerHTML = "Days: " + days;
+  
