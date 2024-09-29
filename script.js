@@ -5,3 +5,11 @@ function calculateAge() {
       return;
     }
 }
+
+var birthdate = new Date(birthdateInput);
+var today = new Date();
+
+var years = today.getFullYear() - birthdate.getFullYear();
+var months = today.getMonth() - birthdate.getMonth();
+var days = today.getDate() - birthdate.getDate();
+
