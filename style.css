@@ -16,11 +16,12 @@ body {
     text-align: center;
   }
   
-  input[type="date"] {
+  input {
     padding: 10px;
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 55%;
   }
   
   button {
