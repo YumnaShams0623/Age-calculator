@@ -29,8 +29,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
+   font-weight: 400;
+    color: black;
     font-size: 16px;
     height: 30%;
   }
@@ -41,7 +41,8 @@ body {
   }
   
   .calculate{
-    background-color: #000000;
+    background-color: #ffffff;
+    font-weight: 600;
   }
   .age-results {
     margin-top: 10px;
